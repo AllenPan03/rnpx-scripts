@@ -12,7 +12,10 @@ exports.bundleExtraFiles = () => {
  * 打包静态资源
  */
 copyStatic = () => {
-    digo.copyDir(path.resolve(process.cwd(), 'static'), path.resolve(process.cwd(), 'dist'));
+    const staticPath = path.resolve(process.cwd(), 'static');
+    if (digo.existsDir(staticPath)) {
+        digo.copyDir(staticPath, path.resolve(process.cwd(), 'dist'));
+    }
 }
 
 /**

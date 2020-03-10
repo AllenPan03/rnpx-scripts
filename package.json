@@ -1,12 +1,12 @@
 {
-  "name": "@wd-mobile/scripts-config",
+  "name": "rnpx-scripts",
   "description": "scripts 配置",
-  "version": "0.1.4",
+  "version": "0.1.0",
   "author": "panjl <panjunlin@jinlins.com>",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "http://git.jinlins.work/fed/scripts-config"
+    "url": "https://github.com/AllenPan03/rnpx-scripts"
   },
   "dependencies": {
     "digo": "^0.2.0",
